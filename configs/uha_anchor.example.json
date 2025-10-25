@@ -1,0 +1,16 @@
+{
+  "anchor_id": "DESI2024_BAO_BBN",
+  "quantity": "H0",
+  "units": "km s^-1 Mpc^-1",
+  "value": 68.52,
+  "u": 0.62,
+  "frame": "late-BAO+BBN",
+  "t_interframe": {
+    "late-Cepheid+SNe": 0.30,
+    "default": 0.0
+  },
+  "provenance": {
+    "doi": "10.5281/zenodo.TBD",
+    "citation": "Insert full DESI BAO+BBN reference"
+  }
+}
