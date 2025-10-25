@@ -3,7 +3,7 @@
   "upload_type": "software",
   "description": "Reproducible test battery for UN-Algebra invariants and ISO 14253-1 guard-band decisions over metrology datasets.",
   "creators": [
-    {"name": "Eric D. Martin", "affiliation": "All Your Baseline LLC", "orcid": "0000-0000-0000-0000"}
+    {"name": "Eric D. Martin", "affiliation": "All Your Baseline LLC", "orcid": "0009-0006-5944-1742"}
   ],
   "keywords": ["metrology", "uncertainty", "ISO 14253-1", "GUM", "measurement", "quality"],
   "communities": [],
