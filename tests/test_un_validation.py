@@ -1,5 +1,5 @@
 import pandas as pd, yaml
-from src.un_reanchor.un_validation import run_all
+from un_reanchor.un_validation import run_all
 
 def test_smoke():
     # minimal synthetic
