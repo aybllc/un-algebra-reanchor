@@ -35,7 +35,7 @@ def compute_uncertainty_U(df, cfg):
 
 def un_T1_inequality_coverage(df, cfg):
     measured = _col(df, "measured", cfg).astype(float)
-    truev = _col(df, "true_value", cfg).astype(float)
+    truev = pd.to_numeric(_col(df, "true_value", cfg), errors='coerce')
     LSL, USL, tol = compute_spec_limits(df, cfg)
     U = compute_uncertainty_U(df, cfg)
     mask = ~truev.isna()
@@ -123,7 +123,7 @@ def un_T5_edge_of_spec(df, cfg):
 
 def un_T6_interval_coverage(df, cfg):
     measured = _col(df, "measured", cfg).astype(float)
-    truev = _col(df, "true_value", cfg).astype(float)
+    truev = pd.to_numeric(_col(df, "true_value", cfg), errors='coerce')
     U = compute_uncertainty_U(df, cfg)
     mask = ~truev.isna()
     if mask.sum()==0:

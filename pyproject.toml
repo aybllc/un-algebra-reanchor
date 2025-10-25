@@ -7,7 +7,7 @@ name = "un-algebra-reanchor"
 version = "0.1.0"
 description = "UN-Algebra retro-validation tests for metrology datasets"
 readme = "README.md"
-requires-python = ">=3.11,<3.12"
+requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [{name="Eric D. Martin", email="eric@aybllc.org"}]
 dependencies = [
