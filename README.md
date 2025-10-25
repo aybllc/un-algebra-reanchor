@@ -1,5 +1,7 @@
 # un-algebra-reanchor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17444740.svg)](https://doi.org/10.5281/zenodo.17444740)
+
 Reproducible retro-validation of metrology datasets against UN-Algebra invariants and ISO 14253-1 decision rules.
 
 ## Overview
