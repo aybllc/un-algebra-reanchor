@@ -1,0 +1,17 @@
+columns:
+  part_id: part_id
+  nominal: nominal
+  tol_lower: tol_lower
+  tol_upper: tol_upper
+  measured: measured
+  true_value: true_value
+  uncertainty_U: uncertainty_U
+  instrument_id: instrument_id
+  accepted: accepted
+  timestamp: timestamp
+
+params:
+  coverage_k: 2.0
+  gamma: 1.0
+  edge_delta: 0.1
+  calibration_cut: null

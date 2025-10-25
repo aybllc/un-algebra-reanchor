@@ -1,0 +1,13 @@
+{
+  "title": "un-algebra-reanchor: UN-Algebra retro-validation tests",
+  "upload_type": "software",
+  "description": "Reproducible test battery for UN-Algebra invariants and ISO 14253-1 guard-band decisions over metrology datasets.",
+  "creators": [
+    {"name": "Eric D. Martin", "affiliation": "All Your Baseline LLC", "orcid": "0000-0000-0000-0000"}
+  ],
+  "keywords": ["metrology", "uncertainty", "ISO 14253-1", "GUM", "measurement", "quality"],
+  "communities": [],
+  "license": "MIT",
+  "related_identifiers": [],
+  "notes": "Initial release for DOI minting. Update CITATION.cff after DOI assignment."
+}
